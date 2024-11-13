@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "tailwindcss-animated": "^1.1.2"
+  },
+  "dependencies": {
+    "@fontsource-variable/onest": "^5.1.0"
   }
 }
