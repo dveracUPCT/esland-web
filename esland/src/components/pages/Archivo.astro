@@ -1,0 +1,32 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import HeroContainer from "../HeroContainer.astro";
+---
+
+<Layout title="Archivo" description="Página de archivo">
+	<HeroContainer img="/archivo-background.webp">
+		<!-- <h1 class="relative top-1/2 left-1/2">EDICIONES ANTERIORES</h1>
+		<a href="#" 
+            class="relative top-1/2 left-1/2 rounded-full border-2 p-3 border-white hover:bg-white hover:text-black transition-colors"
+        >
+            REVIVE LA ÚLTIMA GALA
+        </a> -->
+		<section
+			class="absolute z-10 animate-fade-up flex justify-center items-center gap-8 flex-col"
+		>
+			<h1
+				class="lg:text-6xl text-4xl text-center uppercase mb-20 font-tomaso tracking-widest"
+			>
+				EDICIONES ANTERIORES
+			</h1>
+
+			<a
+				href="#"
+				class="rounded-full border-2 p-3 border-white hover:bg-white hover:text-black transition-colors"
+			>
+				REVIVE LA ÚLTIMA GALA
+			</a>
+		</section>
+	</HeroContainer>
+	<main></main>
+</Layout>

@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import '@fontsource-variable/onest';
+import { ViewTransitions } from 'astro:transitions';
 
 interface Props {
 	description: string;
@@ -19,6 +20,7 @@ const { currentLocale } = Astro;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
+		<ViewTransitions />
 	</head>
 	<body>
 		<Header/>
